@@ -101,7 +101,7 @@ header_rows = [
     [cell("Due date"), cell("23 October 2026")],
     [cell("Report date"), cell("16 October 2026")],
     [cell("Access used"), cell("Public data only. No code, server, CMS or hosting access.")],
-    [cell("GitHub repo"), cell("https://github.com/pakmultilinks-dot/blogreach-blog-quality-scoring")],
+    [cell("GitHub repo"), cell('<a href="https://github.com/pakmultilinks-dot/blogreach-blog-quality-scoring" color="blue"><u>https://github.com/pakmultilinks-dot/blogreach-blog-quality-scoring</u></a>')],
 ]
 story.append(styled_table(header_rows, [32 * mm, 128 * mm]))
 story.append(Spacer(1, 8 * mm))
